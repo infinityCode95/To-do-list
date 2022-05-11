@@ -1,0 +1,156 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul li {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+     background-color: #578bf2;
+     color: white;
+     font-family: 'Roboto';
+}
+
+/* !========== */
+
+.todo {
+     width: 800px;
+     margin: 0 auto;
+     padding: 30px 0px;
+ }
+ 
+.todo__title {
+     margin: 0px 0px 40px 0px;
+     font-weight: 900;
+     font-size: 47px;
+     text-align: center;
+ }
+ 
+ .todo__wrapper {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+ }
+ 
+ .addtask__wrapper {
+     margin: 0px 0px 25px 0px;
+     display: flex;
+     width: 520px;
+     min-height: 40px;
+     align-items: center;
+     background-color: white;
+     border-radius: 10px;
+     padding: 10px;
+ }
+ 
+ .addtask__input-wrapper {
+     width: 80%;
+ }
+ 
+ .addtask__input {
+     padding: 0px 15px;
+     width: 90%;
+     height: 30px;
+     border: none;
+     outline: none;
+ }
+ 
+ .addtask__btn {
+     font-size: 14px;
+     font-weight: 600;
+     padding: 10px 0px;
+     width: 100px;
+     background-color: #578bf2;
+     color: white;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ 
+ .todo__taskslist-title {
+     margin: 0px 0px 20px 0px;
+     font-size: 28px;
+ }
+ 
+ 
+ .todo-items__wrapper {
+     width: 540px;
+     padding: 20px 10px;
+     border-radius: 10px;
+ }
+ 
+ .todo__item {
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     border-radius: 10px;
+     width: 520px;
+     min-height: 50px;
+     margin: 0px 0px 15px 0px;
+     padding: 10px;
+ }
+ 
+ .todoitem__description {
+     color: #578bf2;
+     width: 80%;
+     display: flex;
+     align-items: center;
+     font-weight: 500;
+     font-size: 18px;
+ }
+ 
+ .todoitem__icons {
+     display: flex;
+     align-items: center;
+ }
+  
+ .todoitem__icon {
+     color: #578bf2;
+     cursor: pointer;
+ }
+ 
